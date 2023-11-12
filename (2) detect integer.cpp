@@ -32,7 +32,7 @@ bool isRealNumber(const string &token) {
 int main() {
     ifstream inputFile("input.txt");
     if (!inputFile.is_open()) {
-        cerr << "Unable to open the input file." << endl;
+        cout << "Unable to open the input file." << endl;
         return 1;
     }
 
